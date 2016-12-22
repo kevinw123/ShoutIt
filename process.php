@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
 		if(!mysqli_query($con, $query)){
 			die('Error: '.mysqli_error($con));
 		} else {
-			header("Location: index,php");
+			header("Location: index.php");
 			exit();
 		}
 	}
